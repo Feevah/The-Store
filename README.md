@@ -12,13 +12,13 @@
 
 # Grocery Store app functions:
 
--[ ] add to inventory
--[ ] subtract from inventory
--[ ] Notify when out of stock
+- [ ] add to inventory
+- [ ] subtract from inventory
+- [ ] Notify when out of stock
  
 # data:
--[ ] inventory
--[ ] inventory count
+- [ ] inventory
+- [ ] inventory count
 
-Format: ![Alt Text](https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
+![Alt Text](https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
 
