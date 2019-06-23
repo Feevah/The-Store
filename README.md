@@ -2,10 +2,11 @@
 ## This is an app I am building using arrays to keep an inventory of products.
 ### It should allow the user to see what is available and how much of that product is available.
 
-## Still a lot to do as I'd like to incorporate this code into my Pallet Project to keep inventory of the pallets in stock.
+## Still a lot to do as I'd like to incorporate this code into my Pallet Project to keep inventory of the pallets in stock. 
  
 - [X] Create an inventory array and associate a number with each item. Then get user input that purchases items (subtracts one from the item).
-- [ ] Make a function that will repeat above item with any item in array. If you have any input @axecopfire, I'm working on method 2
+- [ ] Make a function that will repeat above item with any item in array. If you have any input @axecopfire  I'm working on method 2 in my store.js file.
+
 
 # Grocery Store app functions:
 
