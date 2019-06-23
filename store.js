@@ -22,33 +22,31 @@
 
 // method 1 ------------------------------------------------------------
 
-// var input = prompt("What would you like to order")
+var input = prompt("What would you like to order")
 
-// var Blueberries = 10;
-// var Kiwis = 8;
-// var Oranges = 0;
-// var Peaches = 6
-// var Mangoes =12
-// var Guavas = 6
-// var Strawberries = 30
-// var Cucumbers = 7
-// var Squash = 4
-// var Broccoli = 9
+var Blueberries = {name: "Blueberries", amount: 40};
+var Kiwis = {name: "Kiwis", amount: 40};
+var Oranges = {name: "Oranges", amount: 40};
+var Peaches = {name: "Peaches", amount: 40};
+var Mangoes = {name: "Mangoes", amount: 40};
+var Guavas = {name: "Guavas", amount: 40};
+var Strawberries = {name: "Strawberries", amount: 40};
+var Cucumbers = {name: "Cucumbers", amount: 40};
+var Squash = {name: "Squash", amount: 40};
+var Broccoli = {name: "Broccoli", amount: 40};
 
-// var items = ["Blueberries", "Kiwis", "Oranges", "Peaches", "Mangoes", "Guavas", "Strawberries", "Cucumbers", "Squash", "Broccoli"];
-// var quantity = [Blueberries, Kiwis, Oranges, Peaches, Mangoes, Guavas, Strawberries, Cucumbers, Squash, Broccoli]
+var items = ["Blueberries", "Kiwis", "Oranges", "Peaches", "Mangoes", "Guavas", "Strawberries", "Cucumbers", "Squash", "Broccoli"];
+var quantity = [Blueberries, Kiwis, Oranges, Peaches, Mangoes, Guavas, Strawberries, Cucumbers, Squash, Broccoli]
 
+var order = function (input) {
+     if (input === quantity) {
+     var orderNumber = Number(prompt ("We have " + Blueberries + ". How many do you want?"));
+     var newQuant = Blueberries - orderNumber;
+     alert("Your order has been placed. There are " + newQuant + " left");
 
-// Function help!!!!!!!!
+  }
 
-  //    if (input === quantity[0]) {
-  //    var orderNumber = Number(prompt ("We have " + Blueberries + ". How many do you want?"));
-  //    var newQuant = Blueberries - orderNumber;
-  //    alert("Your order has been placed. There are " + newQuant + " left");
-
-  // }
-
-
+}
 
 
 
@@ -59,29 +57,29 @@
 // method 2 ----------------------------
 
 
-var input = prompt("What would you like to order")
-var items = ["Blueberries", "Kiwis", "Oranges", "Peaches", "Mangoes", "Guavas", "Strawberries", "Cucumbers", "Squash", "Broccoli"];
-var quantity = [10, 7, 20, 50, 7, 56, 7 , 43, 10, 87];
-console.log (items[3], quantity[3])
+// var input = prompt("What would you like to order")
+// var items = ["Blueberries", "Kiwis", "Oranges", "Peaches", "Mangoes", "Guavas", "Strawberries", "Cucumbers", "Squash", "Broccoli"];
+// var quantity = [10, 7, 20, 50, 7, 56, 7 , 43, 10, 87];
+// console.log (items[3], quantity[3])
 
-     if (input === items[0]) {
-     var orderNumber = Number(prompt ("We have " + quantity[0] + ". How many do you want?"));
-     var newQuant = quantity[0] - orderNumber;
-     alert("Your order has been placed. There are " + newQuant + " left");
-	}
+//      if (input === items[0]) {
+//      var orderNumber = Number(prompt ("We have " + quantity[0] + ". How many do you want?"));
+//      var newQuant = quantity[0] - orderNumber;
+//      alert("Your order has been placed. There are " + newQuant + " left");
+// 	}
 
-	if (newQuant < 5) {
-		var placeOrder = Number(prompt("We only have " + newQuant + ". How much should I order?"))
-        var newAmount = newQuant + placeOrder;
-        alert("Your order has been placed. There are " + newAmount + " left");
-        quantity = newAmount;
+// 	if (newQuant < 5) {
+// 		var placeOrder = Number(prompt("We only have " + newQuant + ". How much should I order?"))
+//         var newAmount = newQuant + placeOrder;
+//         alert("Your order has been placed. There are " + newAmount + " left");
+//         quantity = newAmount;
 
-	}
+// 	}
 
-	if (placeOrder === 0 || placeOrder === null) {
-	   var doubleCheck = Number(prompt("Are you sure that you don't want to order? Enter amount or press cancel to escape."))
+// 	if (placeOrder === 0 || placeOrder === null) {
+// 	   var doubleCheck = Number(prompt("Are you sure that you don't want to order? Enter amount or press cancel to escape."))
 
-	}
+// 	}
 
 
 
