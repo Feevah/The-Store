@@ -20,15 +20,57 @@
 
 
 
+// method 1 ------------------------------------------------------------
+
+// var input = prompt("What would you like to order")
+
+// var Blueberries = 10;
+// var Kiwis = 8;
+// var Oranges = 0;
+// var Peaches = 6
+// var Mangoes =12
+// var Guavas = 6
+// var Strawberries = 30
+// var Cucumbers = 7
+// var Squash = 4
+// var Broccoli = 9
+
+// var items = ["Blueberries", "Kiwis", "Oranges", "Peaches", "Mangoes", "Guavas", "Strawberries", "Cucumbers", "Squash", "Broccoli"];
+// var quantity = [Blueberries, Kiwis, Oranges, Peaches, Mangoes, Guavas, Strawberries, Cucumbers, Squash, Broccoli]
+
+
+// Function help!!!!!!!!
+
+  //    if (input === quantity[0]) {
+  //    var orderNumber = Number(prompt ("We have " + Blueberries + ". How many do you want?"));
+  //    var newQuant = Blueberries - orderNumber;
+  //    alert("Your order has been placed. There are " + newQuant + " left");
+
+  // }
 
 
 
 
 
+
+
+
+
+// method 2 ----------------------------
+
+
+var input = prompt("What would you like to order")
 var items = ["Blueberries", "Kiwis", "Oranges", "Peaches", "Mangoes", "Guavas", "Strawberries", "Cucumbers", "Squash", "Broccoli"];
+var quantity = [10, 4, 20, 50, 7, 56, 7 , 43, 3, 87];
+console.log (items[3], quantity[3])
 
-console.log (items.length);
-console.log (items);
+     if (input === items[0]) {
+     var orderNumber = Number(prompt ("We have " + quantity[0] + ". How many do you want?"));
+     var newQuant = quantity[0] - orderNumber;
+     alert("Your order has been placed. There are " + newQuant + " left");
+}
+// console.log (items.length);
+// console.log (items);
 
 
 

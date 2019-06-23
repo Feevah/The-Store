@@ -4,7 +4,8 @@
 
 ## Still a lot to do as I'd like to incorporate this code into my Pallet Project to keep inventory of the pallets in stock.
  
-- [ ] Create an inventory array and associate a number with each item. Then get user input that purchases items (subtracts one from the item).
+- [X] Create an inventory array and associate a number with each item. Then get user input that purchases items (subtracts one from the item).
+- [ ] Make a function that will repeat above item with any item in array. If you have any input @axecopfire, I'm working on method 2
 
 # Grocery Store app functions:
 
