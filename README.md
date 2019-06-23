@@ -1,5 +1,5 @@
 # The Shop
-## This is an app I built using arrays to keep an inventory of products.
+## This is an app I am building using arrays to keep an inventory of products.
 ### It should allow the user to see what is available and how much of that product is available.
 
 ## Still a lot to do as I'd like to incorporate this code into my Pallet Project to keep inventory of the pallets in stock.
