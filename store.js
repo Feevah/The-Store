@@ -61,14 +61,26 @@
 
 var input = prompt("What would you like to order")
 var items = ["Blueberries", "Kiwis", "Oranges", "Peaches", "Mangoes", "Guavas", "Strawberries", "Cucumbers", "Squash", "Broccoli"];
-var quantity = [10, 4, 20, 50, 7, 56, 7 , 43, 3, 87];
+var quantity = [10, 7, 20, 50, 7, 56, 7 , 43, 10, 87];
 console.log (items[3], quantity[3])
 
      if (input === items[0]) {
      var orderNumber = Number(prompt ("We have " + quantity[0] + ". How many do you want?"));
      var newQuant = quantity[0] - orderNumber;
      alert("Your order has been placed. There are " + newQuant + " left");
-}
+	}
+
+	if (newQuant < 5) {
+		var placeOrder = Number(prompt("We only have " + newQuant + ". How much should I order?"))
+        var newAmount = newQuant + placeOrder;
+        alert("Your order has been placed. There are " + newAmount + " left");
+
+	}
+
+	if (placeOrder === 0 || placeOrder === null) {
+	   var doubleCheck = Number(prompt("Are you sure that you don't want to order? Enter amount or press cancel to escape."))
+
+	}
 // console.log (items.length);
 // console.log (items);
 
