@@ -74,6 +74,7 @@ console.log (items[3], quantity[3])
 		var placeOrder = Number(prompt("We only have " + newQuant + ". How much should I order?"))
         var newAmount = newQuant + placeOrder;
         alert("Your order has been placed. There are " + newAmount + " left");
+        quantity = newAmount;
 
 	}
 
@@ -81,6 +82,37 @@ console.log (items[3], quantity[3])
 	   var doubleCheck = Number(prompt("Are you sure that you don't want to order? Enter amount or press cancel to escape."))
 
 	}
+
+
+
+
+
+// method 3 ------------------------------------------------
+
+
+// var input = prompt("What would you like to order")
+// var items = [["Blueberries", 10], ["Kiwis", 20], ["Oranges", 50], ["Peaches", 45], ["Mangoes", 9], ["Guavas", 29], ["Strawberries", 104], ["Cucumbers", 56], ["Squash", 29], ["Broccoli", 18]];
+
+//      if (input === items[0]) {
+//      var orderNumber = Number(prompt ("We have " + items[0][1] + ". How many do you want?"));
+//      var newQuant = items[0][1] - orderNumber;
+//      alert("Your order has been placed. There are " + newQuant + " left");
+// 	}
+
+// 	if (newQuant < 5) {
+// 		var placeOrder = Number(prompt("We only have " + newQuant + ". How much should I order?"))
+//         var newAmount = newQuant + placeOrder;
+//         alert("Your order has been placed. There are " + newAmount + " left");
+//         quantity = newAmount;
+
+// 	}
+
+// 	if (placeOrder === 0 || placeOrder === null) {
+// 	   var doubleCheck = Number(prompt("Are you sure that you don't want to order? Enter amount or press cancel to escape."))
+
+// 	}
+
+
 // console.log (items.length);
 // console.log (items);
 
