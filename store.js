@@ -15,7 +15,7 @@ setTimeout(function(){
 // inventory count
 
 
-var input = prompt("What would you like to order\nWe have the Following items:\n" + items)
+var input = prompt("What would you like to order?\nWe have the Following items:\n");
 var items = [["Blueberries", 10], 
 			 ["Kiwis", 20], 
 			 ["Oranges", 50], 
@@ -30,8 +30,23 @@ var items = [["Blueberries", 10],
 
 	var i = 0;
 
-	 while (input !== items[0][0]){
-	 	i++; items[i][0];
+	// // Inventory in prompt
+ //      while (i < items.length){
+ //      	i++;
+
+ //      	// Item name
+ //      var updateItem = items[i][0];
+ //       return items
+
+ //        // Item Quantity
+ //      var updateQuantity = items[i][1];
+
+ //      }
+
+    // Choosing what you want
+
+	 while (input !== null){
+	 	items[i][0]; 
 
 	 	if (input === items[i][0]) {
      	var orderNumber = Number(prompt ("We have " + items[i][0, 1] + ". How many do you want?"));
@@ -52,11 +67,13 @@ var items = [["Blueberries", 10],
 	   var doubleCheck = Number(prompt("Are you sure that you don't want to order? Enter amount or press cancel to escape."))
 
 	    }
+
+	    i++;
 }
 
 
 
-}, 1000);
+}, 700);
 
 
 // while (items.length <= items) {console.log (items);}
