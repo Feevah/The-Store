@@ -5,14 +5,14 @@
 ## Still a lot to do as I'd like to incorporate this code into my Pallet Project to keep inventory of the pallets in stock. 
  
 - [X] Create an inventory array and associate a number with each item. Then get user input that purchases items (subtracts one from the item).
-- [ ] Make a function that will repeat above item with any item in array. If you have any input (@axecopfire) It works but only for "Blueberries". I'm working on method 2 in my store.js file.
+- [X] Make a function that will repeat above item with any item in array. If you have any input (@axecopfire) It works but only for "Blueberries". I'm working on method 2 in my store.js file.
 
 
 # Grocery Store app functions:
 
-- [ ] add to inventory
-- [ ] subtract from inventory
-- [ ] Notify when out of stock
+- [X] add to inventory
+- [X] subtract from inventory
+- [X] Notify when out of stock
  
 # data:
 - [ ] inventory
