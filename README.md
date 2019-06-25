@@ -6,6 +6,7 @@
  
 - [X] Create an inventory array and associate a number with each item. Then get user input that purchases items (subtracts one from the item).
 - [X] Make a function that will repeat above item with any item in array. If you have any input (@axecopfire) It works but only for "Blueberries". I'm working on method 2 in my store.js file.
+- [ ] Put updated inventory in the prompt.
 
 
 # Grocery Store app functions:
