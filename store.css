@@ -8,11 +8,12 @@ body {
 img {
 	height: 150px;
 	width: auto;
+	padding: 7px;
 }
 
 .grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 2 1fr;
 	margin: 50px auto;
 }

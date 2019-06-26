@@ -71,10 +71,24 @@ var items = [["Blueberries", 10],
 	    i++;
 }
 
+// document.querySelector(".placeO").addEventListener("click", function(){
+//   document.querySelector(".grid").x.style.display === "none" 
+//   {
+//   if ( x.style.display = "grid");
+//   } else {
+//     x.style.display = "none";
+//   }
+// });
+
+    document.querySelector(".placeO").addEventListener("click", function(){ 
+
+	document.querySelector(".placeO").style.backgroundColor = "#8fa854";
+
+
+ });
 
 
 }, 700);
-
 
 // while (items.length <= items) {console.log (items);}
 
