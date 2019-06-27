@@ -15,6 +15,43 @@ setTimeout(function(){
 // inventory count
 
 
+
+// Select
+// var something = document.getElementById("")
+// var some = document.getElementByClassName("")
+// var trial = document.getElementsByTagName("")
+// var tag = document.querySelector("#form" =id ".form" = class "h1" = tag)
+// var tag = document.querySelectorAll ("#form")
+
+
+// Manipulate
+// tag.style.color = "blue"
+// tag.style.border = "10px solid red"
+// tag.style.fontSizen = "70px"
+// tag.style.background = "yellow"
+// tag.style.marginTop = "200px"
+
+
+
+
+
+
+// function registerUser () {
+// 	var userName = document.querySelector('form').addEventListener("click", function(){
+// 		document.querySelector()
+// 	})
+// }
+
+// function registerUser (event) {
+//   log.textContent = `Form Submitted! Time stamp: ${event.timeStamp}`;
+//   event.preventDefault();
+// }
+
+// var form = document.querySelector('form');
+// var log = document.getElementById('log');
+// form.pushButton('register', logSubmit);
+
+
 var input = prompt("What would you like to order?\nWe have the Following items:\n");
 var items = [["Blueberries", 10], 
 			 ["Kiwis", 20], 
@@ -71,6 +108,9 @@ var items = [["Blueberries", 10],
 	    i++;
 }
 
+var today = new Date();
+var year = today.getFullYear();
+
 // document.querySelector(".placeO").addEventListener("click", function(){
 //   document.querySelector(".grid").x.style.display === "none" 
 //   {
@@ -84,8 +124,34 @@ var items = [["Blueberries", 10],
 
 	document.querySelector(".placeO").style.backgroundColor = "#8fa854";
 
+	document.querySelector("body").style.backgroundColor = "white";
+
+	document.querySelector("h1").style.color = "blue";
+    var goodEats = "<h4>Click and you will see the good Eats we have available.</h4>";
+
+	document.querySelector(".grid").innerHTML = goodEats;
+
+	
+
+
+
+
+
+
+
 
  });
+
+	var date = new Date ();
+	var today = date.getDate();
+	var month = date.getMonth();
+	var year = date.getYear();
+	// var trip = new Date ();
+	// trip.setTime(date.getTime);
+	// var day = date.getTime();
+	// var time = date.getFullYear();
+    document.querySelector("h3").innerHTML = (month + ' ' + today + ' ' + year );
+
 
 
 }, 700);
