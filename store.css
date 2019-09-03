@@ -13,7 +13,7 @@ img {
 
 .grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 2 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 4 1fr;
 	margin: 50px auto;
 }

@@ -1,5 +1,21 @@
 "use strict"
 setTimeout(function(){
+    var date = new Date ();
+	var today = date.getDate();
+	var month = date.getMonth() + 1;
+	var year = date.getFullYear();
+	// var trip = new Date ();
+	// trip.setTime(date.getTime);
+	// var day = date.getTime();
+	// var time = date.getFullYear();
+    document.querySelector(".date").innerHTML = (month + '-' + today + '-' + year );
+
+
+}, 100);
+
+
+
+setTimeout(function(){
 // Exercise
 
 // Create an inventory array and associate a number with each item. Then get user input that purchases items (subtracts one from the item).
@@ -52,7 +68,7 @@ setTimeout(function(){
 // form.pushButton('register', logSubmit);
 
 
-var input = prompt("What would you like to order?\nWe have the Following items:\n");
+var input = prompt("What would you like to order?\nWe have the items behind this alert:\nPlease make first letter of item capitalized\n(i.e. Kiwis not kiwis");
 var items = [["Blueberries", 10], 
 			 ["Kiwis", 20], 
 			 ["Oranges", 50], 
@@ -111,15 +127,22 @@ var items = [["Blueberries", 10],
 var today = new Date();
 var year = today.getFullYear();
 
-// document.querySelector(".placeO").addEventListener("click", function(){
-//   document.querySelector(".grid").x.style.display === "none" 
-//   {
-//   if ( x.style.display = "grid");
-//   } else {
-//     x.style.display = "none";
-//   }
-// });
 
+
+// var quantity = document.querySelector
+
+
+// addEvent(quantity, "change", function() {
+// 	if (this.value === "choose") 
+
+
+
+// }
+
+
+
+
+// Button
     document.querySelector(".placeO").addEventListener("click", function(){ 
 
 	document.querySelector(".placeO").style.backgroundColor = "#8fa854";
@@ -142,19 +165,25 @@ var year = today.getFullYear();
 
  });
 
-	var date = new Date ();
-	var today = date.getDate();
-	var month = date.getMonth();
-	var year = date.getYear();
-	// var trip = new Date ();
-	// trip.setTime(date.getTime);
-	// var day = date.getTime();
-	// var time = date.getFullYear();
-    document.querySelector("h3").innerHTML = (month + ' ' + today + ' ' + year );
-
+	
 
 
 }, 700);
+
+// document.querySelector(".placeO").addEventListener("click", function(){
+//   document.querySelector(".grid").x.style.display === "none" 
+//   {
+//   if ( x.style.display = "grid");
+//   } else {
+//     x.style.display = "none";
+//   }
+// });
+
+
+
+
+
+
 
 // while (items.length <= items) {console.log (items);}
 
