@@ -68,7 +68,7 @@ setTimeout(function(){
 // form.pushButton('register', logSubmit);
 
 
-var input = prompt("What would you like to order?\nWe have the items behind this alert:\nPlease make first letter of item capitalized\n(i.e. Kiwis not kiwis");
+var input = prompt("What would you like to order?\nWe have the items behind this alert:\nPlease make first letter of item capitalized\n(i.e. Kiwis not kiwis)");
 var items = [["Blueberries", 10], 
 			 ["Kiwis", 20], 
 			 ["Oranges", 50], 
@@ -168,7 +168,7 @@ var year = today.getFullYear();
 	
 
 
-}, 2500);
+}, 4000);
 
 // document.querySelector(".placeO").addEventListener("click", function(){
 //   document.querySelector(".grid").x.style.display === "none" 
