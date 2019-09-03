@@ -168,7 +168,7 @@ var year = today.getFullYear();
 	
 
 
-}, 4000);
+}, 10000);
 
 // document.querySelector(".placeO").addEventListener("click", function(){
 //   document.querySelector(".grid").x.style.display === "none" 
