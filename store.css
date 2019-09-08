@@ -14,6 +14,6 @@ img {
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 4 1fr;
+	grid-template-rows: 3 1fr;
 	margin: 50px auto;
 }

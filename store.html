@@ -3,109 +3,101 @@
 <head>
 	<title>myStore</title>
 	<link rel="stylesheet" type="text/css" href="store.css">
-	<script type="text/javascript" src="store.js"></script>
+	
 	<link href="https://fonts.googleapis.com/css?family=Knewave&display=swap" rel="stylesheet">
 </head>
 <body>
 	<h1>Welcome To My Store</h1>
 	<h2>We have many items to choose from. Hope you find what you are looking for!</h2>
 	<h3>Today is: <div class="date"></div></h3>
-	<!-- <section>
-		<button type="button" class="placeO">Place your Order</button>
+	
 
-	<div>
-		<form name="register" action="" onsubmit= "return pushButton()" method="post">
-			email: <input type="text" name="fname">
-			<input type="submit" value="Register">
-		</form>
-	</div>
-		
-	</section> -->
+
 	<section class="grid">
 		
-		<div><img src="http://pngimg.com/uploads/blueberries/blueberries_PNG50.png"><br>Blueberries<br>
+		<div><img src="http://pngimg.com/uploads/blueberries/blueberries_PNG50.png"><br>We have <span class="bbCount"></span> Blueberries<br>
 			<select name= Blueberries>
 				<option class = "tenBl">10</option>
 				<option class = "twentyBl">20</option>
-				<option classs= "thirty">30</option>
+				<option class= "thirty">30</option>
 				<option class = "forty">40</option>
 				<option class = "fifty">50</option>
 			</select>
 		</div>
-		<div><img src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c155.png"><br>Kiwis<br>
+		<div><img src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c155.png"><br>We have <span class="kCount"></span> Kiwis<br>
 			<select name= Kiwis	>
 				<option class = "ten">10</option>
 				<option class = "twenty">20</option>
-				<option classs= "thirty">30</option>
+				<option class= "thirty">30</option>
 				<option class = "forty">40</option>
 				<option class = "fifty">50</option>
 			</select>
 		</div>
-		<div><img src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c171.png"><br>Oranges<br>
+		<div><img src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c171.png"><br>We have <span class="oCount"></span> Oranges<br>
 			<select name= Oranges>
 				<option class = "ten">10</option>
 				<option class = "twenty">20</option>
-				<option classs= "thirty">30</option>
+				<option class= "thirty">30</option>
 				<option class = "forty">40</option>
 				<option class = "fifty">50</option>
 				
 			</select>
 		</div>
-		<div><img src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c17b.png"><br>Peaches<br>
+		<div><img src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c17b.png"><br>We have <span class="pCount"></span> Peaches<br>
 			<select name= Peaches>
 				<option class = "ten">10</option>
 				<option class = "twenty">20</option>
-				<option classs= "thirty">30</option>
+				<option class= "thirty">30</option>
 				<option class = "forty">40</option>
 				<option class = "fifty">50</option>
 				
 			</select></div>
-		<div><img src="http://pngimg.com/uploads/mango/mango_PNG9168.png"><br>Mangoes<br>
+		<div><img src="http://pngimg.com/uploads/mango/mango_PNG9168.png"><br>We have <span class="mCount"></span> Mangoes<br>
 			<select name= Mangoes>
 				<option class = "ten">10</option>
 				<option class = "twenty">20</option>
-				<option classs= "thirty">30</option>
+				<option class= "thirty">30</option>
 				<option class = "forty">40</option>
 				<option class = "fifty">50</option>
 			
 			</select></div>
-		<div><img src="https://www.freepngimg.com/thumb/guava/2-2-guava-transparent-thumb.png"><br>Guavas<br>
+		<div><img src="https://www.freepngimg.com/thumb/guava/2-2-guava-transparent-thumb.png"><br>We have <span class="gCount"></span> Guavas<br>
 			<select name= Guavas>
 				<option class = "ten">10</option>
 				<option class = "twenty">20</option>
-				<option classs= "thirty">30</option>
+				<option class= "thirty">30</option>
 				<option class = "forty">40</option>
 				<option class = "fifty">50</option>
 				
 			</select></div>
-		<div><img src="http://www.pngall.com/wp-content/uploads/2016/05/Strawberry-Download-PNG.png"><br>Strawberries<br>
+		<div><img src="http://www.pngall.com/wp-content/uploads/2016/05/Strawberry-Download-PNG.png"><br>We have <span class="sCount"></span> Strawberries<br>
 			<select name= Guavas>
 				<option class = "ten">10</option>
 				<option class = "twenty">20</option>
-				<option classs= "thirty">30</option>
+				<option class= "thirty">30</option>
 				<option class = "forty">40</option>
 				<option class = "fifty">50</option>
 		
 			</select></div>
-		<div><img src="https://purepng.com/public/uploads/large/purepng.com-cucumbercucumbervegetablespicklegreenfoodhealthycucumbers-481522161925n6wbx.png"><br>Cucumbers<br>
+		<div><img src="https://purepng.com/public/uploads/large/purepng.com-cucumbercucumbervegetablespicklegreenfoodhealthycucumbers-481522161925n6wbx.png"><br>We have <span class="cCount"></span> Cucumbers<br>
 			<select name= Guavas>
 				<option class = "ten">10</option>
 				<option class = "twenty">20</option>
-				<option classs= "thirty">30</option>
+				<option class= "thirty">30</option>
 				<option class = "forty">40</option>
 				<option class = "fifty">50</option>
 				
 			</select></div>
-		<div><img src="https://www.stickpng.com/assets/images/585ea823cb11b227491c3542.png"><br>Squash<br>
+		<div><img src="https://www.stickpng.com/assets/images/585ea823cb11b227491c3542.png"><br>We have <span class="sqCount"></span> Squash<br>
 			<select name= Guavas>
 				<option class = "ten">10</option>
 				<option class = "twenty">20</option>
-				<option classs= "thirty">30</option>
+				<option class= "thirty">30</option>
 				<option class = "forty">40</option>
 				<option class = "fifty">50</option>
 				
 			</select></div>
-		<div><img src="http://pngimg.com/uploads/broccoli/broccoli_PNG72955.png"><br>Broccoli<br>
+		<div><img src="http://pngimg.com/uploads/broccoli/broccoli_PNG72955.png"><br>We have <span class="bCount"></span> Broccoli<br>
 			<select name= Guavas>
 				<option class = "ten">10</option>
 				<option class = "twenty">20</option>
@@ -117,13 +109,13 @@
 
 	</section>
 
-	<div>
+	<!-- <div>
 		<form name="register" action="" onsubmit= "return pushButton()" method="post">
 			email: <input type="text" name="fname">
 			<input type="submit" value="Register">
 		</form>
-	</div>
+	</div> -->
 
 </body>
-
+<script type="text/javascript" src="store.js"></script>
 </html>
