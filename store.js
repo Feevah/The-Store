@@ -85,7 +85,7 @@ var input = prompt("What would you like to order?\nWe have the items behind this
 		var placeOrder = Number(prompt("We only have " + newQuant + ". How much should I order?"))
         var newAmount = newQuant + placeOrder;
         alert("Your order has been placed. There are " + newAmount + " left");
-        quantity = newAmount;
+        newQuant = newAmount;
 
 	    }
 
