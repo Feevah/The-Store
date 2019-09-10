@@ -30,4 +30,9 @@ img {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	margin: 50px auto;
+	border-bottom: 5px solid #8fa854;
+}
+
+.up {
+	padding-bottom: 20px;
 }
