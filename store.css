@@ -11,6 +11,14 @@ img {
 	padding: 7px;
 }
 
+.scroll {
+	padding-right: 17px; 
+	height:120px; 
+	overflow-y: scroll; 
+	position: relative;"
+}
+
+
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;

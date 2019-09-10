@@ -37,15 +37,16 @@ document.querySelector(".bCount").textContent= items[9][1]
 
 // Append Order
 
-var quant = document.getElementById("quantity").value;
-var order = document.getElementById("order").value;
 var userItem = document.createElement("p");
 
+
 function paste() {
-	var currentOrder = quant 
-	var para = document.createElement("p");
-	para.innerHTML = order;
-	document.querySelector(".newOrder").appendChild(para);
+	var quant = document.getElementById("quantity").value;
+    var order = document.getElementById("order").value;
+	var para = document.createElement("li");
+	para.innerHTML = order + " " + quant;
+	var newO = document.querySelector(".newOrder");
+	newO.insertBefore(para, newO.childNodes[0]);
 }
 
 
