@@ -10,101 +10,142 @@
 	<h1>Welcome To My Store</h1>
 	<h2>We have many items to choose from. Hope you find what you are looking for!</h2>
 	<h3>Today is: <div class="date"></div></h3>
-	
+	<section class="g2">
+		<div>
+			<h2>Please select from the options below</h2>
+			<select id= "order">
+				<option value = blueberries>Blueberries</option>
+				<option value = kiwis>Kiwis</option>
+				<option value = oranges>Oranges</option>
+				<option value = peaches>Peaches</option>
+				<option value = mangoes>Mangoes</option>
+				<option value = guavas>Guavas</option>
+				<option value = strawberries>Strawberries</option>
+				<option value = cucumbers>Cucumbers</option>
+				<option value = squash>Squash</option>
+				<option value = broccoli>Broccoli</option>
+				
+
+			</select>
+
+			<h3>Quantity:</h3><br>
+            	<input type="text" id="quantity">
+			<button type="button" class="add">add</button>
+        		
+		</div>
+		<div>
+			<h2>Your Order Here!</h2>
+			<p class="newOrder"><h2>********This is where your Order will go************<h2></p>
+			<h2>Happy with your order? Click Submit and We'll send a confirmation email to your account with delivery details</h2>
+			<button type="submit" id="submit" onclick="encode()">Submit</button>
+		</div>	
+		
+
+		
+	</section>
 
 
 	<section class="grid">
 		
 		<div><img src="http://pngimg.com/uploads/blueberries/blueberries_PNG50.png"><br>We have <span class="bbCount"></span> Blueberries<br>
-			<select id= 'blueberries'>
+			<!-- <select id= 'blueberries'>
 				<option value = 10>10</option>
 				<option value = 20>20</option>
 				<option value = 30>30</option>
 				<option value = 40>40</option>
 				<option value = 50>50</option>
-			</select>
+			</select> -->
 		</div>
 		<div><img src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c155.png"><br>We have <span class="kCount"></span> Kiwis<br>
-			<select id= "kiwis"	>
+			<!-- <select id= "kiwis"	>
 				<option value = 10>10</option>
 				<option value = 20>20</option>
 				<option value = 30>30</option>
 				<option value = 40>40</option>
 				<option value = 50>50</option>
-			</select>
+			</select> -->
 		</div>
 		<div><img src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c171.png"><br>We have <span class="oCount"></span> Oranges<br>
-			<select id= "oranges">
+			<!-- <select id= "oranges">
 			    <option value = 10>10</option>
 				<option value = 20>20</option>
 				<option value = 30>30</option>
 				<option value = 40>40</option>
 				<option value = 50>50</option>
-			</select>
+			</select> -->
 		</div>
 		<div><img src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c17b.png"><br>We have <span class="pCount"></span> Peaches<br>
-			<select id= "peaches">
+			<!-- <select id= "peaches">
 				<option value = 10>10</option>
 				<option value = 20>20</option>
 				<option value = 30>30</option>
 				<option value = 40>40</option>
 				<option value = 50>50</option>
 				
-			</select></div>
+			</select> -->
+		</div>
 		<div><img src="http://pngimg.com/uploads/mango/mango_PNG9168.png"><br>We have <span class="mCount"></span> Mangoes<br>
-			<select id= "mangoes">
+			<!-- <select id= "mangoes">
 				<option value = 10>10</option>
 				<option value = 20>20</option>
 				<option value = 30>30</option>
 				<option value = 40>40</option>
 				<option value = 50>50</option>
 			
-			</select></div>
+			</select> -->
+		</div>
 		<div><img src="https://www.freepngimg.com/thumb/guava/2-2-guava-transparent-thumb.png"><br>We have <span class="gCount"></span> Guavas<br>
-			<select id= "guavas">
+			<!-- <select id= "guavas">
 				<option value = 10>10</option>
 				<option value = 20>20</option>
 				<option value = 30>30</option>
 				<option value = 40>40</option>
 				<option value = 50>50</option>
 				
-			</select></div>
+			</select> -->
+		</div>
 		<div><img src="http://www.pngall.com/wp-content/uploads/2016/05/Strawberry-Download-PNG.png"><br>We have <span class="sCount"></span> Strawberries<br>
-			<select id= "strawberries">
+			<!-- <select id= "strawberries">
 				<option value = 10>10</option>
 				<option value = 20>20</option>
 				<option value = 30>30</option>
 				<option value = 40>40</option>
 				<option value = 50>50</option>
 		
-			</select></div>
+			</select> -->
+		</div>
 		<div><img src="https://purepng.com/public/uploads/large/purepng.com-cucumbercucumbervegetablespicklegreenfoodhealthycucumbers-481522161925n6wbx.png"><br>We have <span class="cCount"></span> Cucumbers<br>
-			<select id= "cucumbers">
+			<!-- <select id= "cucumbers">
 				<option value = 10>10</option>
 				<option value = 20>20</option>
 				<option value = 30>30</option>
 				<option value = 40>40</option>
 				<option value = 50>50</option>
 				
-			</select></div>
+			</select> -->
+		</div>
 		<div><img src="https://www.stickpng.com/assets/images/585ea823cb11b227491c3542.png"><br>We have <span class="sqCount"></span> Squash<br>
-			<select id= "squash">
+			<!-- <select id= "squash">
 				<option value = 10>10</option>
 				<option value = 20>20</option>
 				<option value = 30>30</option>
 				<option value = 40>40</option>
 				<option value = 50>50</option>
 				
-			</select></div>
+			</select> -->
+		</div>
 		<div><img src="http://pngimg.com/uploads/broccoli/broccoli_PNG72955.png"><br>We have <span class="bCount"></span> Broccoli<br>
-			<select id= "broccoli">
+			<!-- <select id= "broccoli">
 				<option value = 10>10</option>
 				<option value = 20>20</option>
 				<option value = 30>30</option>
 				<option value = 40>40</option>
 				<option value = 50>50</option>
 			
-			</select></div>
+			</select> -->
+		</div>
+
+		
 
 	</section>
 

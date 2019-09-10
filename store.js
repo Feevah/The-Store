@@ -29,7 +29,27 @@ document.querySelector(".gCount").textContent= items[5][1]
 document.querySelector(".sCount").textContent= items[6][1]
 document.querySelector(".cCount").textContent= items[7][1]
 document.querySelector(".sqCount").textContent= items[8][1]
-document.querySelector(".bCount").textContent= items[9][1]	
+document.querySelector(".bCount").textContent= items[9][1]
+
+
+
+
+
+// Append Order
+
+var quant = document.getElementById("quantity").value;
+var order = document.getElementById("order").value;
+var userItem = document.createElement("p");
+
+function paste() {
+	var currentOrder = quant 
+	var para = document.createElement("p");
+	para.innerHTML = order;
+	document.querySelector(".newOrder").appendChild(para);
+}
+
+
+document.querySelector('.add').addEventListener("click", paste);
 
 
 
@@ -87,6 +107,11 @@ var input = prompt("What would you like to order?\nWe have the items behind this
 
 
 // <======================= Old Stuff Section ==============================>
+
+
+
+
+
 
 
 

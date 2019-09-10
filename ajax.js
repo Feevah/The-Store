@@ -10,20 +10,19 @@ var res = this.responseText;
 console.log(JSON.parse(res));
 }
 };
-var blueberryCount = document.getElementById("blueberries").value;
-var kiwiCount = document.getElementById("kiwis").value;
-var blueberryCount = document.getElementById("blueberries").value;
-var kiwiCount = document.getElementById("kiwis").value;
-var blueberryCount = document.getElementById("blueberries").value;
-var kiwiCount = document.getElementById("kiwis").value;
-var blueberryCount = document.getElementById("blueberries").value;
-var kiwiCount = document.getElementById("kiwis").value;
-var email = encodeURIComponent(emailRaw);
-// var event = encodeURIComponent(eventRaw);
-var request = "/add?" + "email=" + email + "&event=" + event;
+
+
+var quantRaw = document.getElementById("quantity").value;
+var orderRaw = document.getElementById("order").value;
+var quant = encodeURIComponent(quantRaw);
+var order = encodeURIComponent(orderRaw);
+var request = "/order?" + "order=" + order + "&quantity=" + quant;
    xhttp.open("GET",request, true);
    xhttp.send();
 
-console.log(emailRaw + blueberryCount)
+console.log(order + quant)
 };
+
+
+
 
