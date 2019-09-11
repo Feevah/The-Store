@@ -41,13 +41,41 @@ var userItem = document.createElement("p");
 
 
 function paste() {
-	var quant = document.getElementById("quantity").value;
-    var order = document.getElementById("order").value;
+	var i = 0;
+	var order = document.getElementById("order").value;
+	// var quant = document.getElementById("quantity").value;
 	var para = document.createElement("li");
-	para.innerHTML = order + " " + quant;
+	para.innerHTML = order + " " + orderNumber;
 	var newO = document.querySelector(".newOrder");
 	newO.insertBefore(para, newO.childNodes[0]);
-}
+
+
+	while (order !== null){
+	 	items[i][0]; 
+
+	 	if (order === items[i][0]) {
+     	var orderNumber = Number(prompt ("We have " + items[i][0, 1] + ". How many do you want?"));
+     	var newQuant = items[i][0,1] - orderNumber;
+     	alert("Your order has been placed. There are " + newQuant + " left");
+	    };
+     
+
+	    if (newQuant < 10) {
+		var placeOrder = Number(prompt("We only have " + newQuant + ". How much should I order?"))
+        var newAmount = newQuant + placeOrder;
+        alert("Your order has been placed. There are " + newAmount + " left");
+        newQuant = newAmount;
+
+	    };
+
+
+	    i++;
+};
+
+
+
+};
+
 
 
 document.querySelector('.add').addEventListener("click", paste);
@@ -61,43 +89,43 @@ document.querySelector('.add').addEventListener("click", paste);
 // <============================== The Prompt ===============================>
 
 
-setTimeout(function(){
-// The loop & propmpt
+// setTimeout(function(){
+// // // The loop & propmpt
 
-var input = prompt("What would you like to order?\nWe have the items behind this alert:\nPlease make first letter of item capitalized\n(i.e. Kiwis not kiwis)");
-	var i = 0;
+// var input = prompt("What would you like to order?\nWe have the items behind this alert:\nPlease make first letter of item capitalized\n(i.e. Kiwis not kiwis)");
+// 	var i = 0;
 
 
 
-// Choosing what you want
+// // Choosing what you want
 
-	 while (input !== null){
-	 	items[i][0]; 
+// 	 while (input !== null){
+// 	 	items[i][0]; 
 
-	 	if (input === items[i][0]) {
-     	var orderNumber = Number(prompt ("We have " + items[i][0, 1] + ". How many do you want?"));
-     	var newQuant = items[i][0,1] - orderNumber;
-     	alert("Your order has been placed. There are " + newQuant + " left");
-	    }
+// 	 	if (input === items[i][0]) {
+//      	var orderNumber = Number(prompt ("We have " + items[i][0, 1] + ". How many do you want?"));
+//      	var newQuant = items[i][0,1] - orderNumber;
+//      	alert("Your order has been placed. There are " + newQuant + " left");
+// 	    }
      
 
-	    if (newQuant < 10) {
-		var placeOrder = Number(prompt("We only have " + newQuant + ". How much should I order?"))
-        var newAmount = newQuant + placeOrder;
-        alert("Your order has been placed. There are " + newAmount + " left");
-        newQuant = newAmount;
+// 	    if (newQuant < 10) {
+// 		var placeOrder = Number(prompt("We only have " + newQuant + ". How much should I order?"))
+//         var newAmount = newQuant + placeOrder;
+//         alert("Your order has been placed. There are " + newAmount + " left");
+//         newQuant = newAmount;
 
-	    }
+// 	    }
 
-	    else if (placeOrder === 0 || placeOrder === null) {
-	   var doubleCheck = (prompt("Are you sure that you don't want to order? Enter amount or press cancel to escape."))
-	    }
+// 	    else if (placeOrder === 0 || placeOrder === null) {
+// 	   var doubleCheck = (prompt("Are you sure that you don't want to order? Enter amount or press cancel to escape."))
+// 	    }
 
-	    i++;
-}
+// 	    i++;
+// }
 
 
-}, 8000);
+// }, 8000);
 
 
 
