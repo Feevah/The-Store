@@ -71,7 +71,7 @@ body {
 	url(../img/fruits.jpg);
 	background-size: cover;
 	background-position: center;
-	-webkit-clip-path: polygon(0 0, 100% 5vh, 100% 100%, 0 90vh);
+	-webkit-clip-path: polygon(0 3vh, 100% 0, 100% 94vh, 0 100%);
 	position: relative;
 }
 
