@@ -1,3 +1,5 @@
+/*Animations*/
+
 @keyframes moveLeft {
 	0%{
 		opacity:0;
@@ -69,7 +71,7 @@ body {
 	url(../img/fruits.jpg);
 	background-size: cover;
 	background-position: center;
-	-webkit-clip-path: polygon(0 0, 100% 5vh, 100% 100%, 0 100%);
+	-webkit-clip-path: polygon(0 0, 100% 5vh, 100% 100%, 0 90vh);
 	position: relative;
 }
 
@@ -86,7 +88,7 @@ body {
 	font-size: 60px;
 	letter-spacing: 20.1px;
 	font-weight: 400;
-	animation-name: moveLeft;
+	animation-name: moveRight;
 	animation-duration: 1s;
 	animation-timing-function: ease-out;
 }
@@ -96,7 +98,7 @@ body {
 	font-size: 20px;
 	font-weight: 700;
 	letter-spacing: 11.4px;
-	animation-name: moveRight;
+	animation-name: moveLeft;
 	animation-duration: 1s;
 	animation-timing-function: ease-out;
 }
@@ -116,7 +118,7 @@ body {
 	margin-top: 25px;
 	padding: 10px 30px;
 	display: inline-block;
-	border-radius: 100px;
+	border-radius: 20px;
 	transition: all .2s;
 	position: relative;
 }
@@ -183,17 +185,15 @@ img {
 	padding: 7px;
 }
 
-.up {
-	padding-bottom: 20px;
-}
 
 
 /*Order Bar*/
 
 .attention {
 	font-size: 60px;
-	letter-spacing: 20.1px;
+	letter-spacing: 15.1px;
 	font-weight: 400;
+	/*text-decoration: underline;*/
 }
 
 .scroll {
@@ -208,7 +208,12 @@ img {
 	grid-template-columns: 1fr 1fr;
 	margin: 50px auto;
 	padding-bottom: 50px;
+	text-transform: uppercase;
 }
 
+.up {
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
 
 
