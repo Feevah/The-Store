@@ -2,48 +2,32 @@
 <html>
 <head>
 	<title>myStore</title>
-	<link rel="stylesheet" type="text/css" href="store.css">
+	<link rel="stylesheet" type="text/css" href="style/store.css">
 	<!-- <script type="text/javascript" src="ajax.js"></script> -->
-	<link href="https://fonts.googleapis.com/css?family=Knewave&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+	
 </head>
 <body>
+
+<header class="header">
+	<!-- <div class="logo-box">
+		<img src="img/burg.png" alt="logo" class="logo">
+	</div> -->
+	<div class="text-box">
+		<h1 class="heading-p">
+			<span class="heading-pmain">Fresh Fruits</span>
+			<span class="heading-smain">Flavor in Freshness</span>
+			<a href="#" class="btn btn-white btn-animate">Our Selection</a>
+		</h1>
+	</div>
+	
+</header>
+<div class="welcome">
 	<h1>Welcome To My Store</h1>
 	<h2>We have many items to choose from. Hope you find what you are looking for!</h2>
 	<h3>Today is: <div class="date"></div></h3>
-	<section class="g2">
-		<div>
-			<h2>Please select from the options below</h2>
-			<select id= "order">
-				<option value = Blueberries>Blueberries</option>
-				<option value = Kiwis>Kiwis</option>
-				<option value = Oranges>Oranges</option>
-				<option value = Peaches>Peaches</option>
-				<option value = Mangoes>Mangoes</option>
-				<option value = Guavas>Guavas</option>
-				<option value = Strawberries>Strawberries</option>
-				<option value = Cucumbers>Cucumbers</option>
-				<option value = Squash>Squash</option>
-				<option value = Broccoli>Broccoli</option>
-				
-
-			</select>
-
-			<button type="button" class="add">add</button>
-        		
-		</div>
-		<div class="up">
-			<h2>Your Order Here!</h2>
-			<div class="scroll">
-                  <p class="newOrder"></p>
-            </div>
-			<!-- <h2>Happy with your order? Click Submit and We'll send a confirmation email to your account with delivery details</h2>
-			<button type="submit" id="submit" onclick="encode()">Submit</button> -->
-		</div>	
-		
-
-		
-	</section>
-
+	
+</div>
 
 	<section class="grid">
 		
@@ -148,8 +132,40 @@
 		
 
 	</section>
+<h1 class="attention">Order Here</h1>
+<section class="g2">
+		<div>
+			<h2>Please select from the options below</h2>
+			<select id= "order">
+				<option value = Blueberries>Blueberries</option>
+				<option value = Kiwis>Kiwis</option>
+				<option value = Oranges>Oranges</option>
+				<option value = Peaches>Peaches</option>
+				<option value = Mangoes>Mangoes</option>
+				<option value = Guavas>Guavas</option>
+				<option value = Strawberries>Strawberries</option>
+				<option value = Cucumbers>Cucumbers</option>
+				<option value = Squash>Squash</option>
+				<option value = Broccoli>Broccoli</option>
+				
 
+			</select>
 
+			<button type="button" class="add">add</button>
+        		
+		</div>
+		<div class="up">
+			<h2>Your Order Here!</h2>
+			<div class="scroll">
+                  <p class="newOrder"></p>
+            </div>
+			<!-- <h2>Happy with your order? Click Submit and We'll send a confirmation email to your account with delivery details</h2>
+			<button type="submit" id="submit" onclick="encode()">Submit</button> -->
+		</div>	
+		
+
+		
+	</section>
 
 	<!-- <div>
 		<form name="register" action="" onsubmit= "return pushButton()" method="post">
@@ -159,5 +175,5 @@
 	</div> -->
 
 </body>
-<script type="text/javascript" src="store.js"></script>
+<script type="text/javascript" src="js/store.js"></script>
 </html>
