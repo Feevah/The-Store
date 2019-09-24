@@ -64,7 +64,7 @@ body {
 /*Header*/
 
 .header {
-	height: 95vh;
+	height: 80vh;
 	background-image: linear-gradient(to right bottom, 
 	rgba(143, 168, 84, 0.5), 
 	rgba(240, 242, 188, 0.5)),
@@ -101,6 +101,7 @@ body {
 	animation-name: moveLeft;
 	animation-duration: 1s;
 	animation-timing-function: ease-out;
+	padding-bottom: 40px;
 }
 
 .text-box {
@@ -216,4 +217,9 @@ img {
 	padding-bottom: 20px;
 }
 
+/*.bGrid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 30px;
+}*/
 
