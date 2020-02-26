@@ -29,7 +29,7 @@ var guava = document.querySelector(".gCount");
 var strawberries = document.querySelector(".sCount");
 var cucumber = document.querySelector(".cCount");
 var squash = document.querySelector(".sqCount");
-var broccoli = document.querySelector(".bCount");
+// var broccoli = document.querySelector(".bCount");
 
 blueBerries.innerText = items[0][1];
 kiwi.innerText = items[1][1];
