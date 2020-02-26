@@ -44,10 +44,10 @@ function paste() {
 	var i = 0;
 	var order = document.getElementById("order").value;
 	// var quant = document.getElementById("quantity").value;
-	var para = document.createElement("li");
-	para.innerHTML = order + " " + orderNumber;
-	var newO = document.querySelector(".newOrder");
-	newO.insertBefore(para, newO.childNodes[0]);
+	// var para = document.createElement("li");
+	// para.innerHTML = order + " " + orderNumber;
+	// var newO = document.querySelector(".newOrder");
+	// newO.insertBefore(para, newO.childNodes[0]);
 
 
 	while (order !== null){
@@ -56,7 +56,11 @@ function paste() {
 	 	if (order === items[i][0]) {
      	var orderNumber = Number(prompt ("We have " + items[i][0, 1] + ". How many do you want?"));
      	var newQuant = items[i][0,1] - orderNumber;
-     	alert("Your order has been placed. There are " + newQuant + " left");
+		 alert("Your order has been placed. There are " + newQuant + " left");
+		 var para = document.createElement("li");
+		para.innerHTML = order + " " + orderNumber;
+		var newO = document.querySelector(".newOrder");
+		newO.insertBefore(para, newO.childNodes[0]);
 	    };
      
 
@@ -71,7 +75,6 @@ function paste() {
 
 	    i++;
 };
-
 
 
 };
