@@ -20,17 +20,27 @@ var items = [["Blueberries", 40],
 			 ["Broccoli", 18]];
 
 // The amounts
-document.querySelector(".bbCount").textContent= items[0][1]
-document.querySelector(".kCount").textContent= items[1][1]
-document.querySelector(".oCount").textContent= items[2][1]
-document.querySelector(".pCount").textContent= items[3][1]
-document.querySelector(".mCount").textContent= items[4][1]
-document.querySelector(".gCount").textContent= items[5][1]
-document.querySelector(".sCount").textContent= items[6][1]
-document.querySelector(".cCount").textContent= items[7][1]
-document.querySelector(".sqCount").textContent= items[8][1]
-document.querySelector(".bCount").textContent= items[9][1]
+var blueBerries = document.querySelector(".bbCount");
+var kiwi = document.querySelector(".kCount");
+var oranges = document.querySelector(".oCount"); 
+var peaches = document.querySelector(".pCount");
+var mangoes = document.querySelector(".mCount");
+var guava = document.querySelector(".gCount");
+var strawberries = document.querySelector(".sCount");
+var cucumber = document.querySelector(".cCount");
+var squash = document.querySelector(".sqCount");
+var broccoli = document.querySelector(".bCount");
 
+blueBerries.innerText = items[0][1];
+kiwi.innerText = items[1][1];
+oranges.innerText = items[2][1];
+peaches.innerText = items[3][1];
+mangoes.innerText = items[4][1];
+guava.innerText = items[5][1];
+strawberries.innerText = items[6][1];
+cucumber.innerText = items[7][1];
+squash.innerText = items[8][1];
+broccoli.innerText = items[9][1];
 
 
 
@@ -56,12 +66,13 @@ function paste() {
 	 	if (order === items[i][0]) {
      	var orderNumber = Number(prompt ("We have " + items[i][0, 1] + ". How many do you want?"));
      	var newQuant = items[i][0,1] - orderNumber;
-		 alert("Your order has been placed. There are " + newQuant + " left");
-		 var para = document.createElement("li");
+		alert("Your order has been placed. There are " + newQuant + " left");
+		var para = document.createElement("li");
 		para.innerHTML = order + " " + orderNumber;
 		var newO = document.querySelector(".newOrder");
 		newO.insertBefore(para, newO.childNodes[0]);
-	    };
+		};
+		
      
 
 	    if (newQuant < 10) {
