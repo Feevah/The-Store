@@ -40,7 +40,7 @@ guava.innerText = items[5][1];
 strawberries.innerText = items[6][1];
 cucumber.innerText = items[7][1];
 squash.innerText = items[8][1];
-broccoli.innerText = items[9][1];
+// broccoli.innerText = items[9][1];
 
 
 
