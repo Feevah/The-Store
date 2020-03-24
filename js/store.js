@@ -175,7 +175,7 @@ signIn.addEventListener('submit', function(e) {
 	checkRequired([ your_username, registered_password ]);
 	checkLength(registered_password, 6, 25);
 	checkLength(your_username, 3, 15);
-	checkPasswords(registered_password);
+	// checkPasswords(registered_password);
 });
 
 // <============================== The Prompt ===============================>
